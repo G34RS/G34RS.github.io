@@ -794,7 +794,7 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: "src/site",
-      output: "dist",
+      output: "wikis",
       data: `_data`,
     },
     templateFormats: ["njk", "md", "11ty.js", "canvas"],
